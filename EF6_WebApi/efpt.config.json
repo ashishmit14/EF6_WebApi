@@ -1,0 +1,81 @@
+﻿{
+   "CodeGenerationMode": 2,
+   "ContextClassName": "SchoolDBContext",
+   "ContextNamespace": null,
+   "DefaultDacpacSchema": null,
+   "FilterSchemas": false,
+   "IncludeConnectionString": false,
+   "ModelNamespace": null,
+   "OutputContextPath": "Data",
+   "OutputPath": "Models",
+   "PreserveCasingWithRegex": true,
+   "ProjectRootNamespace": "EF6_WebApi",
+   "Schemas": null,
+   "SelectedHandlebarsLanguage": 0,
+   "SelectedToBeGenerated": 0,
+   "Tables": [
+      {
+         "Name": "[dbo].[Course]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Standard]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Student]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[StudentAddress]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[StudentCourse]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Teacher]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[View_StudentCourse]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[GetCoursesByStudentId]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DeleteStudent]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_InsertStudentInfo]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_UpdateStudent]",
+         "ObjectType": 1
+      }
+   ],
+   "UiHint": "messi.SchoolDB.dbo",
+   "UseBoolPropertiesWithoutDefaultSql": false,
+   "UseDatabaseNames": false,
+   "UseDbContextSplitting": false,
+   "UseFluentApiOnly": false,
+   "UseHandleBars": false,
+   "UseHierarchyId": false,
+   "UseInflector": true,
+   "UseLegacyPluralizer": false,
+   "UseManyToManyEntity": true,
+   "UseNoConstructor": false,
+   "UseNoDefaultConstructor": false,
+   "UseNoNavigations": false,
+   "UseNoObjectFilter": false,
+   "UseNodaTime": false,
+   "UseNullableReferences": false,
+   "UseSchemaFolders": false,
+   "UseSpatial": true,
+   "UseT4": false
+}
